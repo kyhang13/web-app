@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(253, 225, 225, 0.7), rgb(238, 194, 200)); /* Soft gradient */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 30%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 242, 242, 0.8); /* Transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Optional: adds a blur effect behind the card */
+}
+
+
+img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+}
+input{
+    width: 93%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+button {
+    width: 99%;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    background-color: rgb(201, 189, 189);
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: rgb(247, 219, 224);
+}
+p { 
+    font-size: 15px;
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
